@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   application:
-    name: AISHANGGOU-PLAT
+    name: GOGOU-PLAT
 eureka:
   instance:
     prefer-ip-address: true
