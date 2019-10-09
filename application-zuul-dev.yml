@@ -15,5 +15,5 @@ zuul:
   prefix: /services
   routes:
     plat:
-      serviceId: AISHANGGOU-PLAT
+      serviceId: GOGOU-PLAT
       path: /**
