@@ -1,6 +1,11 @@
 server:
   port: 8082
 spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///mybatispluss
+    username: root
+    password: root
   application:
     name: GOGOU-PRODUCT
 eureka:
