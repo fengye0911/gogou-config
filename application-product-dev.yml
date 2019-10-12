@@ -16,4 +16,4 @@ eureka:
       defaultZone: http://root:root@localhost:8761/eureka/
 mybatis-plus:
   type-aliases-package: cn.itsource.gogou
-  mapper-locations: cn.itsource.gogou.mapper
+  mapper-locations: cn/itsource/gogou/mapper/*Mapper.xml
