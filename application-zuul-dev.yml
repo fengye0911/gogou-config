@@ -16,4 +16,7 @@ zuul:
   routes:
     plat:
       serviceId: GOGOU-PLAT
-      path: /**
+      path: /plat/**
+    product:
+      serviceId: GOGOU-PRODUCT
+      path: /product/**
