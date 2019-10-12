@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql:///mybatispluss
+    url: jdbc:mysql:///gogou-product
     username: root
     password: root
   application:
