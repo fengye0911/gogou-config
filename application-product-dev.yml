@@ -17,3 +17,6 @@ eureka:
 mybatis-plus:
   type-aliases-package: cn.itsource.gogou
   mapper-locations: classpath*:cn/itsource/gogou/mapper/*Mapper.xml
+logging:
+  level: 
+    cn.itsource.gogou: debug
