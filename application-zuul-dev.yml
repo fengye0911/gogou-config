@@ -16,3 +16,14 @@ zuul:
     common:
       serviceId: GOGOU-COMMON
       path: /common/**
+#zuul超时时间的设置
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 6000
+ribbon:
+  ConnectTimeout: 6000
+  ReadTimeout: 6000
