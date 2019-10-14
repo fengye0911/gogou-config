@@ -1,5 +1,6 @@
 server:
   port: 7777
+  max-http-header-size: 1048576
 spring:
   application:
     name: GOGOU-COMMON
