@@ -13,3 +13,6 @@ zuul:
     product:
       serviceId: GOGOU-PRODUCT
       path: /product/**
+    common:
+      serviceId: GOGOU-COMMON
+      path: /common/**
