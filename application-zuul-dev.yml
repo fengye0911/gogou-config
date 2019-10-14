@@ -16,7 +16,7 @@ zuul:
     common:
       serviceId: GOGOU-COMMON
       path: /common/**
-#zuul超时时间的设置
+#timeout
 hystrix:
   command:
     default:
