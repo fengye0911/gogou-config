@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: GOGOU-COMMON
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
 eureka:
   instance:
     prefer-ip-address: true
